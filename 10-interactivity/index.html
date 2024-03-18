@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,18 +9,47 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="hover:text-white-300 m-3 rounded-lg bg-black px-5 py-3 text-white transition-all hover:bg-orange-500"
+    >
+      Get Startted
+    </button>
 
     <!-- Focus State Styling -->
-
+    <button
+      class="focus:text-white-300 m-3 rounded-lg bg-black px-5 py-3 text-white transition-all focus:bg-orange-500"
+    >
+      Get Startted
+    </button>
     <!-- Active State Styling -->
-
+    <button
+      class="active:text-white-300 m-3 rounded-lg bg-black px-5 py-3 text-white transition-all active:bg-orange-500"
+    >
+      Get Startted
+    </button>
     <!-- Styling based on parent state -->
-
+    <a
+      href=""
+      class="group mx-auto block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg transition-all hover:bg-blue-500"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p></a
+    >
     <!-- Pseudo Classes -->
-
+    <ul>
+      <li class="first:bg-red-200">item 1</li>
+      <li class="second:bg-red-200">item 2</li>
+      <li class="first:bg-red-200">item 3</li>
+      <li class="first:bg-red-200">item 4</li>
+      <li class="first:bg-red-200">item 5</li>
+      <li class="first:bg-red-200">item 6</li>
+    </ul>
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
-
+    <select class=" rounded border-2" name="" id="">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
     <!-- Cursor -->
 
     <!-- Resize -->
